@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 366" width="1200" height="366" role="img" aria-labelledby="title description">
+  <title id="title">Perceived understanding and demonstrated reasoning</title>
+  <desc id="description">On an ivory field, a sweeping line represents perceived understanding. On a navy field, a path with branching evidence nodes represents demonstrated reasoning. The paths are conceptual and show no measurements.</desc>
+  <rect width="1200" height="366" rx="12" fill="#f3eee3"/>
+  <path d="M600 0h588a12 12 0 0 1 12 12v342a12 12 0 0 1-12 12H600Z" fill="#253449"/>
+  <path d="M1 49v-37A11 11 0 0 1 12 1h588m0 364H12a11 11 0 0 1-11-11V49" fill="none" stroke="#d3cbbb" stroke-width="2"/>
+  <g fill="none" stroke-width="1">
+    <path d="M64 188h472m-472 50h472m-472 50h472m-472 50h472" stroke="#d8d1c3"/>
+    <path d="M664 188h472m-472 50h472m-472 50h472m-472 50h472" stroke="#435166"/>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="59" letter-spacing="-1.5">
+    <text x="62" y="85" fill="#202c3b">Perceived<tspan x="62" dy="61">understanding</tspan></text>
+    <text x="662" y="85" fill="#faf5ea">Demonstrated<tspan x="662" dy="61">reasoning</tspan></text>
+  </g>
+  <path d="M70 309C161 315 184 302 233 263S332 216 383 227 466 271 530 209" fill="none" stroke="#344a60" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="70" cy="309" r="6" fill="#f3eee3" stroke="#344a60" stroke-width="3"/>
+  <circle cx="530" cy="209" r="6" fill="#344a60"/>
+  <path d="M670 309 771 265 867 287 971 221 1130 202" fill="none" stroke="#e4dbca" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m771 265 77-50m19 72 101 27m3-93 102 51" fill="none" stroke="#a9b5c5" stroke-width="2" stroke-dasharray="5 7"/>
+  <g fill="#253449" stroke="#a9b5c5" stroke-width="2">
+    <circle cx="848" cy="215" r="5"/><circle cx="968" cy="314" r="5"/><circle cx="1073" cy="272" r="5"/>
+  </g>
+  <g fill="#253449" stroke="#e4dbca" stroke-width="3">
+    <circle cx="670" cy="309" r="6"/><circle cx="771" cy="265" r="6"/>
+    <circle cx="867" cy="287" r="6"/><circle cx="971" cy="221" r="6"/>
+  </g>
+  <circle cx="1130" cy="202" r="6" fill="#e4dbca"/>
+</svg>

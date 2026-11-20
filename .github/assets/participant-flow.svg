@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 370" width="640" height="370" role="img" aria-labelledby="title description">
+  <title id="title">BU-E1.0 participant sequence after onboarding</title>
+  <desc id="description">General confidence C0 precedes case one. Answer confidence AC1 accompanies case one. The guide is followed by general confidence C1. Answer confidence AC2 accompanies case two. The museum challenge is last.</desc>
+  <rect x="1" y="1" width="638" height="368" rx="12" fill="#f3eee3" stroke="#d3cbbb" stroke-width="2"/>
+  <path d="M47 51v264" stroke="#a09e94" stroke-width="2"/>
+  <path d="M76 86h530M76 152h530M76 218h530M76 284h530" stroke="#d9d0c1"/>
+  <rect x="76" y="160" width="530" height="50" rx="6" fill="#253449"/>
+  <g fill="#f3eee3" stroke="#41556b" stroke-width="2.5">
+    <circle cx="47" cy="53" r="6"/><circle cx="47" cy="119" r="6"/>
+    <circle cx="47" cy="185" r="7" fill="#41556b"/><circle cx="47" cy="251" r="6"/>
+    <circle cx="47" cy="317" r="6"/>
+  </g>
+  <g fill="#202c3b" font-family="system-ui, 'Segoe UI', sans-serif" font-size="28" font-weight="600">
+    <text x="91" y="63">General confidence</text>
+    <text x="91" y="129">First matched case</text>
+    <text x="91" y="195" fill="#faf5ea">Fixed AI guide, then confidence</text>
+    <text x="91" y="261">Second matched case</text>
+    <text x="91" y="327">Museum evidence challenge</text>
+  </g>
+  <g fill="#3b526a" font-family="ui-monospace, Consolas, monospace" font-size="26" font-weight="600" text-anchor="end">
+    <text x="585" y="63">C0</text>
+    <text x="585" y="129">AC1</text>
+    <text x="585" y="195" fill="#faf5ea">C1</text>
+    <text x="585" y="261">AC2</text>
+  </g>
+</svg>
