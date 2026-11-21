@@ -12,6 +12,7 @@
   <a href="#study-design">Study design</a> ·
   <a href="#research-development">History</a> ·
   <a href="#research-status">Status</a> ·
+  <a href="#research-implementation">Code</a> ·
   <a href="#research-materials">Materials</a>
 </p>
 
@@ -63,6 +64,19 @@ Interpretation is limited by the small convenience-sample design, lack of a rand
 
 **Planned paper** · *Perceived Understanding and Independent Causal Reasoning Following AI-Generated Explanations: An Exploratory Human Pilot Study*. The title is provisional. Aggregate results and the paper are reserved for separate scientific and privacy review.
 
+## Research implementation
+
+The November 21, 2026 code release follows the November 20 Oxford submission. It extracts the BU-E1.0 instrument logic, case order, confidence validation, and assessment checks from the source revision verified against the live study. Synthetic placeholders stand in for the study cases and guide. The assessment validator checks record structure and evidence linkage.
+
+With **Node.js 22.18+**, run the tests and synthetic replay from the repository root. No packages or credentials are needed.
+
+```sh
+node --test test/offline.test.mjs
+node examples/synthetic.mjs
+```
+
+The example exercises both case orders and prints a deterministic replay digest. It contains no human observations. [Architecture, source provenance, and reproducibility](docs/REPRODUCIBILITY.md)
+
 ## Research materials
 
 - [Methodology](docs/METHODOLOGY.md) — participant sequence, confidence measures, reasoning assessment, and post-submission reflection.
@@ -73,4 +87,4 @@ Interpretation is limited by the small convenience-sample design, lack of a rand
 
 **Louis Wren David** conducts the research independently, without institutional sponsorship or affiliation. [Study entry point · private access required](https://study.wrencomplex.com/)
 
-The public documentation supports review of the design and measurement logic. Participant-level records, consent records, private operational materials, and complete scoring keys are restricted. Exact replication from this repository alone is therefore outside the scope of this release. Any future aggregate release is subject to scientific and privacy review.
+The public documentation and extracted source support review of the design, measurement logic, and software behavior. Participant-level records, consent records, private operational materials, and complete scoring keys are restricted. Exact replication from this repository alone is therefore outside the scope of this release. Any future aggregate release is subject to scientific and privacy review.
